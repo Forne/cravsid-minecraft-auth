@@ -1,0 +1,14 @@
+<?php
+    $config = array();
+
+    //Database
+    $db = new PDO("mysql:host=localhost;dbname=dbname", 'dbuser', 'dbpass'); 
+    
+    // Minecraft Login Setting
+    $config['md5'] = ''; // minecraft.jar md5 (send to auth.php)
+    $config['version'] = ""; // Launcher version (send to auth.php)
+
+    // CravsID oauth data
+    $config['app_id'] = "";
+    $config['app_key'] = "";
+?>
